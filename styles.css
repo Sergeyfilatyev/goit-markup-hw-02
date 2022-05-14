@@ -1,3 +1,80 @@
+/* main color text #212121 */
+/* second color text #757575 */
+/* white color text #FFFFFF */
+/* accent color text #2196F3 */
+/* contact color text rgba(255, 255, 255, 0.6) */
+/* background color #E5E5E5 */
+/* bacfground title color #2F303A */
+:root {
+  --title-color: #212121;
+  --main-color: #757575;
+  --accent-color: #2196f3;
+}
 body {
-  background-color: aqua;
+  background-color: #ffffff;
+  color: var(--main-color);
+}
+.list {
+  list-style: none;
+}
+/* Header */
+
+.header-section .logo {
+  color: var(--title-color);
+}
+.logo:hover,
+.logo:focus {
+  color: #2196f3;
+}
+.logo-accent {
+  color: var(--accent-color);
+}
+
+.nav-menu .link {
+  color: var(--title-color);
+}
+.nav-menu .link:hover,
+.nav-menu .link:focus,
+.nav-menu .link:active {
+  color: var(--accent-color);
+}
+.contact-menu .link {
+  color: var(--main-color);
+}
+.contact-menu .link:hover,
+.contact-menu .link:focus,
+.contact-menu .link:active {
+  color: var(--accent-color);
+}
+/* section order service */
+.order-service {
+  background-color: #2f303a;
+}
+.title-service {
+  color: #ffffff;
+}
+.button-service {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+.button-service:hover,
+.button-service:focus {
+  background-color: #ffffff;
+  color: var(--accent-color);
+}
+.title {
+  color: var(--title-color);
+}
+/* footer */
+.footer-section {
+  background-color: #2f303a;
+}
+.footer-section .logo {
+  color: #ffffff;
+}
+.address-link {
+  color: #ffffff;
+}
+.address-menu .link {
+  color: rgba(255, 255, 255, 0.6);
 }
