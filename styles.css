@@ -78,6 +78,8 @@ body {
   line-height: 1.87;
   letter-spacing: 0.06em;
   cursor: pointer;
+  border: none;
+  border-radius: 4px;
 }
 .button-service:hover,
 .button-service:focus {
@@ -134,6 +136,45 @@ body {
   line-height: 1.18;
   letter-spacing: 0.03em;
 }
+/* portfolio */
+/* portfolio menu */
+.portfolio-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+  background-color: #f5f4fa;
+  cursor: pointer;
+  border: none;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  background-color: var(--accent-color);
+  border-radius: 4px;
+  color: #ffffff;
+}
+.projects-main {
+  display: none;
+}
+.projects-link {
+  text-decoration: none;
+}
+.projects-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+}
+.projects-content {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+
 /* footer */
 
 .footer-section {
