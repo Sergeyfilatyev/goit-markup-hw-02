@@ -82,8 +82,7 @@ body {
 }
 .button-service:hover,
 .button-service:focus {
-  background-color: #ffffff;
-  color: var(--accent-color);
+  background-color: #2196f380;
 }
 
 /* features */
@@ -177,15 +176,6 @@ body {
 .footer-section {
   background-color: #2f303a;
 }
-.address-link-first {
-  color: #ffffff;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-}
 .address-link {
   color: var(--footer-color);
   font-style: normal;
@@ -195,6 +185,10 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
 }
+.geo {
+  color: #ffffff;
+}
+
 .address-link:hover,
 .address-link:focus,
 .geolocation:hover,
