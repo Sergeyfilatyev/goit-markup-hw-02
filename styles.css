@@ -14,7 +14,6 @@ body {
 }
 
 /* Header */
-
 .logo {
   color: var(--accent-color);
   font-family: 'Raleway', sans-serif;
@@ -41,8 +40,10 @@ body {
   text-decoration: none;
 }
 .navi-link:hover,
-.navi-link:focus,
-.navi-link:active {
+.navi-link:focus {
+  color: var(--accent-color);
+}
+.link-active {
   color: var(--accent-color);
 }
 .contact-link {
@@ -190,8 +191,6 @@ body {
 }
 
 .address-link:hover,
-.address-link:focus,
-.geolocation:hover,
-.geolocation:focus {
+.address-link:focus {
   color: var(--accent-color);
 }
