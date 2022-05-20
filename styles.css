@@ -43,7 +43,7 @@ body {
 .navi-link:focus {
   color: var(--accent-color);
 }
-.link-active {
+.navi-link.current {
   color: var(--accent-color);
 }
 .contact-link {
@@ -71,6 +71,7 @@ body {
   text-transform: uppercase;
 }
 .button-service {
+  font-family: inherit;
   background-color: var(--accent-color);
   color: #ffffff;
   font-weight: 700;
@@ -83,7 +84,7 @@ body {
 }
 .button-service:hover,
 .button-service:focus {
-  background-color: #2196f380;
+  background-color: #188ce8;
 }
 
 /* features */
@@ -136,6 +137,7 @@ body {
 }
 /* portfolio menu */
 .portfolio-btn {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -186,7 +188,7 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
 }
-.geo {
+.address-link.geo {
   color: #ffffff;
 }
 
